@@ -1,8 +1,19 @@
 import 'bootstrap/dist/css/bootstrap.css'
-import jokes from "./jokes";
 
-const allJokes = jokes.getJokes().map(joke => "<li>"+joke+"</li>");
-document.getElementById("jokes").innerHTML = allJokes.join("");
+/*
+document.getElementById("searchButton").onclick = function() {
+    console.log("hey")
+    var input = document.getElementById("searchInput").value;
+    fetch("http://localhost:8080/jpareststarter/api/person/" + value)
+        .then(response => response.json())
+        .then(data => {
+                document.getElementById("searchResult").innerHTML = data.name
+        }) 
+   
 
+}*/
 
+document.getElementById("searchButton").onclick = function() {
+    console.log("test2")
+}
 
